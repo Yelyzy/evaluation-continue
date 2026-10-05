@@ -23,6 +23,7 @@
   color: var(--Primary-0, #fff);
   font-size: var(--body-1-size);
   font-weight: var(--body-1-regular-weight);
+  transition: background-color 0.5s ease;
 }
 
 .navigation-link:hover {

@@ -1,0 +1,46 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  padding: 2.5rem;
+  background: url("../image/02-image-hero.webp") center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  display: flex;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 2rem;
+  border: 4px solid var(--Primary-600, #6c6f72);
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+
+.hero-heading {
+  color: var(--Primary-0);
+  font-family: var(--font-family-accent);
+  font-size: var(--heading-1-accent-size);
+  font-weight: var(--heading-1-accent-weight-regular);
+}
